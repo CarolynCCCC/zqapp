@@ -53,7 +53,7 @@ if page == "Home":
                 background: url(data:image/jpg;base64,{b64});
                 background-size: cover;
             }}
-            h1, h2, p, [data-testid="caption"]{{
+            h1, h2, p, [data-testid="stImageCaption"]{{
                 color: white;
             }}
             </style>
