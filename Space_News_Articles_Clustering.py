@@ -51,7 +51,10 @@ if page == "Home":
             <style>
             .stApp {{
                 background: url(data:image/jpg;base64,{b64});
-                background-size: contain;
+                background-size: cover;
+            }}
+            h1, h2, p, [data-testid="caption"]{{
+                color: white;
             }}
             </style>
             """
